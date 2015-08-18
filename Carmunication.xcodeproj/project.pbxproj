@@ -1,0 +1,521 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BCA6270B1B8302FA008AADCB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCA6270A1B8302FA008AADCB /* AppDelegate.swift */; };
+		BCA6270D1B8302FA008AADCB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCA6270C1B8302FA008AADCB /* ViewController.swift */; };
+		BCA627101B8302FA008AADCB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BCA6270E1B8302FA008AADCB /* Main.storyboard */; };
+		BCA627131B8302FA008AADCB /* Carmunication.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = BCA627111B8302FA008AADCB /* Carmunication.xcdatamodeld */; };
+		BCA627151B8302FA008AADCB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BCA627141B8302FA008AADCB /* Assets.xcassets */; };
+		BCA627181B8302FA008AADCB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BCA627161B8302FA008AADCB /* LaunchScreen.storyboard */; };
+		BCA627231B8302FA008AADCB /* CarmunicationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCA627221B8302FA008AADCB /* CarmunicationTests.swift */; };
+		BCA6272E1B8302FA008AADCB /* CarmunicationUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCA6272D1B8302FA008AADCB /* CarmunicationUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BCA6271F1B8302FA008AADCB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BCA626FF1B8302FA008AADCB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BCA627061B8302FA008AADCB;
+			remoteInfo = Carmunication;
+		};
+		BCA6272A1B8302FA008AADCB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BCA626FF1B8302FA008AADCB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BCA627061B8302FA008AADCB;
+			remoteInfo = Carmunication;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		BCA627071B8302FA008AADCB /* Carmunication.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Carmunication.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BCA6270A1B8302FA008AADCB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		BCA6270C1B8302FA008AADCB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		BCA6270F1B8302FA008AADCB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BCA627121B8302FA008AADCB /* Carmunication.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Carmunication.xcdatamodel; sourceTree = "<group>"; };
+		BCA627141B8302FA008AADCB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BCA627171B8302FA008AADCB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		BCA627191B8302FA008AADCB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BCA6271E1B8302FA008AADCB /* CarmunicationTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CarmunicationTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BCA627221B8302FA008AADCB /* CarmunicationTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarmunicationTests.swift; sourceTree = "<group>"; };
+		BCA627241B8302FA008AADCB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BCA627291B8302FA008AADCB /* CarmunicationUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CarmunicationUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BCA6272D1B8302FA008AADCB /* CarmunicationUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarmunicationUITests.swift; sourceTree = "<group>"; };
+		BCA6272F1B8302FA008AADCB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BCA627041B8302FA008AADCB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BCA6271B1B8302FA008AADCB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BCA627261B8302FA008AADCB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BCA626FE1B8302FA008AADCB = {
+			isa = PBXGroup;
+			children = (
+				BCA627091B8302FA008AADCB /* Carmunication */,
+				BCA627211B8302FA008AADCB /* CarmunicationTests */,
+				BCA6272C1B8302FA008AADCB /* CarmunicationUITests */,
+				BCA627081B8302FA008AADCB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BCA627081B8302FA008AADCB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BCA627071B8302FA008AADCB /* Carmunication.app */,
+				BCA6271E1B8302FA008AADCB /* CarmunicationTests.xctest */,
+				BCA627291B8302FA008AADCB /* CarmunicationUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BCA627091B8302FA008AADCB /* Carmunication */ = {
+			isa = PBXGroup;
+			children = (
+				BCA6270A1B8302FA008AADCB /* AppDelegate.swift */,
+				BCA6270C1B8302FA008AADCB /* ViewController.swift */,
+				BCA6270E1B8302FA008AADCB /* Main.storyboard */,
+				BCA627141B8302FA008AADCB /* Assets.xcassets */,
+				BCA627161B8302FA008AADCB /* LaunchScreen.storyboard */,
+				BCA627191B8302FA008AADCB /* Info.plist */,
+				BCA627111B8302FA008AADCB /* Carmunication.xcdatamodeld */,
+			);
+			path = Carmunication;
+			sourceTree = "<group>";
+		};
+		BCA627211B8302FA008AADCB /* CarmunicationTests */ = {
+			isa = PBXGroup;
+			children = (
+				BCA627221B8302FA008AADCB /* CarmunicationTests.swift */,
+				BCA627241B8302FA008AADCB /* Info.plist */,
+			);
+			path = CarmunicationTests;
+			sourceTree = "<group>";
+		};
+		BCA6272C1B8302FA008AADCB /* CarmunicationUITests */ = {
+			isa = PBXGroup;
+			children = (
+				BCA6272D1B8302FA008AADCB /* CarmunicationUITests.swift */,
+				BCA6272F1B8302FA008AADCB /* Info.plist */,
+			);
+			path = CarmunicationUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BCA627061B8302FA008AADCB /* Carmunication */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BCA627321B8302FA008AADCB /* Build configuration list for PBXNativeTarget "Carmunication" */;
+			buildPhases = (
+				BCA627031B8302FA008AADCB /* Sources */,
+				BCA627041B8302FA008AADCB /* Frameworks */,
+				BCA627051B8302FA008AADCB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Carmunication;
+			productName = Carmunication;
+			productReference = BCA627071B8302FA008AADCB /* Carmunication.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BCA6271D1B8302FA008AADCB /* CarmunicationTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BCA627351B8302FA008AADCB /* Build configuration list for PBXNativeTarget "CarmunicationTests" */;
+			buildPhases = (
+				BCA6271A1B8302FA008AADCB /* Sources */,
+				BCA6271B1B8302FA008AADCB /* Frameworks */,
+				BCA6271C1B8302FA008AADCB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BCA627201B8302FA008AADCB /* PBXTargetDependency */,
+			);
+			name = CarmunicationTests;
+			productName = CarmunicationTests;
+			productReference = BCA6271E1B8302FA008AADCB /* CarmunicationTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		BCA627281B8302FA008AADCB /* CarmunicationUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BCA627381B8302FA008AADCB /* Build configuration list for PBXNativeTarget "CarmunicationUITests" */;
+			buildPhases = (
+				BCA627251B8302FA008AADCB /* Sources */,
+				BCA627261B8302FA008AADCB /* Frameworks */,
+				BCA627271B8302FA008AADCB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BCA6272B1B8302FA008AADCB /* PBXTargetDependency */,
+			);
+			name = CarmunicationUITests;
+			productName = CarmunicationUITests;
+			productReference = BCA627291B8302FA008AADCB /* CarmunicationUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BCA626FF1B8302FA008AADCB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = "Huang, Ryan";
+				TargetAttributes = {
+					BCA627061B8302FA008AADCB = {
+						CreatedOnToolsVersion = 7.0;
+					};
+					BCA6271D1B8302FA008AADCB = {
+						CreatedOnToolsVersion = 7.0;
+						TestTargetID = BCA627061B8302FA008AADCB;
+					};
+					BCA627281B8302FA008AADCB = {
+						CreatedOnToolsVersion = 7.0;
+						TestTargetID = BCA627061B8302FA008AADCB;
+					};
+				};
+			};
+			buildConfigurationList = BCA627021B8302FA008AADCB /* Build configuration list for PBXProject "Carmunication" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BCA626FE1B8302FA008AADCB;
+			productRefGroup = BCA627081B8302FA008AADCB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BCA627061B8302FA008AADCB /* Carmunication */,
+				BCA6271D1B8302FA008AADCB /* CarmunicationTests */,
+				BCA627281B8302FA008AADCB /* CarmunicationUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BCA627051B8302FA008AADCB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BCA627181B8302FA008AADCB /* LaunchScreen.storyboard in Resources */,
+				BCA627151B8302FA008AADCB /* Assets.xcassets in Resources */,
+				BCA627101B8302FA008AADCB /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BCA6271C1B8302FA008AADCB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BCA627271B8302FA008AADCB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BCA627031B8302FA008AADCB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BCA6270D1B8302FA008AADCB /* ViewController.swift in Sources */,
+				BCA6270B1B8302FA008AADCB /* AppDelegate.swift in Sources */,
+				BCA627131B8302FA008AADCB /* Carmunication.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BCA6271A1B8302FA008AADCB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BCA627231B8302FA008AADCB /* CarmunicationTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BCA627251B8302FA008AADCB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BCA6272E1B8302FA008AADCB /* CarmunicationUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BCA627201B8302FA008AADCB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BCA627061B8302FA008AADCB /* Carmunication */;
+			targetProxy = BCA6271F1B8302FA008AADCB /* PBXContainerItemProxy */;
+		};
+		BCA6272B1B8302FA008AADCB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BCA627061B8302FA008AADCB /* Carmunication */;
+			targetProxy = BCA6272A1B8302FA008AADCB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		BCA6270E1B8302FA008AADCB /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BCA6270F1B8302FA008AADCB /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		BCA627161B8302FA008AADCB /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BCA627171B8302FA008AADCB /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BCA627301B8302FA008AADCB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		BCA627311B8302FA008AADCB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BCA627331B8302FA008AADCB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Carmunication/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ryan.apps.Carmunication;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		BCA627341B8302FA008AADCB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Carmunication/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ryan.apps.Carmunication;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		BCA627361B8302FA008AADCB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = CarmunicationTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ryan.apps.CarmunicationTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Carmunication.app/Carmunication";
+			};
+			name = Debug;
+		};
+		BCA627371B8302FA008AADCB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = CarmunicationTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ryan.apps.CarmunicationTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Carmunication.app/Carmunication";
+			};
+			name = Release;
+		};
+		BCA627391B8302FA008AADCB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = CarmunicationUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ryan.apps.CarmunicationUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Carmunication;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		BCA6273A1B8302FA008AADCB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = CarmunicationUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ryan.apps.CarmunicationUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Carmunication;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BCA627021B8302FA008AADCB /* Build configuration list for PBXProject "Carmunication" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BCA627301B8302FA008AADCB /* Debug */,
+				BCA627311B8302FA008AADCB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BCA627321B8302FA008AADCB /* Build configuration list for PBXNativeTarget "Carmunication" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BCA627331B8302FA008AADCB /* Debug */,
+				BCA627341B8302FA008AADCB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		BCA627351B8302FA008AADCB /* Build configuration list for PBXNativeTarget "CarmunicationTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BCA627361B8302FA008AADCB /* Debug */,
+				BCA627371B8302FA008AADCB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		BCA627381B8302FA008AADCB /* Build configuration list for PBXNativeTarget "CarmunicationUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BCA627391B8302FA008AADCB /* Debug */,
+				BCA6273A1B8302FA008AADCB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		BCA627111B8302FA008AADCB /* Carmunication.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				BCA627121B8302FA008AADCB /* Carmunication.xcdatamodel */,
+			);
+			currentVersion = BCA627121B8302FA008AADCB /* Carmunication.xcdatamodel */;
+			path = Carmunication.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = BCA626FF1B8302FA008AADCB /* Project object */;
+}
